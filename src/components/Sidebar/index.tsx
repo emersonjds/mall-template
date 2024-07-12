@@ -218,7 +218,7 @@ const Sidebar = ({ sidebarOpen, setSidebarOpen }: SidebarProps) => {
                       </clipPath>
                     </defs>
                   </svg>
-                  Chart
+                  Analise e Métricas
                 </NavLink>
               </li>
 
@@ -254,7 +254,7 @@ const Sidebar = ({ sidebarOpen, setSidebarOpen }: SidebarProps) => {
                       </clipPath>
                     </defs>
                   </svg>
-                  Tables
+                  Estoque e Produtos
                 </NavLink>
               </li>
               {/* <!-- Menu Item Tables --> */}

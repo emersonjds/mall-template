@@ -16,6 +16,13 @@ module.exports = {
     },
     extend: {
       colors: {
+        store: {
+          red: '#F21326',
+          semired: '#D92546',
+          bluestore: '#033E8C',
+          semibluestore: '#034C8C',
+          offwhite: '#F2F2F2',
+        },
         current: 'currentColor',
         transparent: 'transparent',
         white: '#FFFFFF',
