@@ -11,8 +11,8 @@ const options: ApexOptions = {
     fontFamily: 'Satoshi, sans-serif',
     type: 'donut',
   },
-  colors: ['#3C50E0', '#D92546', '#10b981', '#034C8C'],
-  labels: ['Desktop', 'Tablet', 'Mobile', 'Unknown'],
+  colors: ['#551bb3', '#268fbe', '#CF5068', '#FF6766'],
+  labels: ['Casa e Banho', 'Roupas', 'Eletronicos', 'Genéricos'],
   legend: {
     show: false,
     position: 'bottom',
@@ -139,7 +139,7 @@ const ChartThree: React.FC = () => {
         </div>
         <div className="sm:w-1/2 w-full px-8">
           <div className="flex w-full items-center">
-            <span className="mr-2 block h-3 w-full max-w-3 rounded-full bg-emerald-500"></span>
+            <span className="mr-2 block h-3 w-full max-w-3 rounded-full bg-store-cerise"></span>
             <p className="flex w-full justify-between text-sm font-medium text-black dark:text-white">
               <span> ELetronicos </span>
               <span> 12% </span>
