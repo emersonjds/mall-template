@@ -135,10 +135,6 @@ const ECommerce: React.FC = () => {
         <div className="col-span-12 xl:col-span-6">
           <ChartFive />
         </div>
-
-        <div className="col-span-12 xl:col-span-12">
-          <ChartSix />
-        </div>
       </div>
     </>
   );

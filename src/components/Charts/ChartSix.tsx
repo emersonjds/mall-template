@@ -1,102 +1,14 @@
-import React from 'react';
 import Chart from 'react-apexcharts';
-
-// const data = {
-//   series: [
-//     {
-//       name: 'Alimentação',
-//       data: [30, 40, 45, 50, 49, 60, 70, 91],
-//     },
-//     {
-//       name: 'Eletronicos',
-//       data: [10, 20, 30, 40, 50, 60, 70, 80],
-//     },
-//     {
-//       name: 'Moda',
-//       data: [20, 25, 30, 35, 40, 45, 50, 55],
-//     },
-//   ],
-//   options: {
-//     chart: {
-//       type: 'line',
-//       background: 'transparent',
-//     },
-//     stroke: {
-//       width: [3, 3, 3], // Espessura da linha para cada série
-//       curve: 'smooth', // Curva suave nas linhas
-//     },
-//     xaxis: {
-//       categories: ['Jan', 'Fev', 'Mar', 'Abr', 'Mai', 'Jun', 'Jul', 'Ago'],
-//     },
-//     yaxis: {
-//       title: {
-//         text: 'Vendas',
-//       },
-//     },
-//     colors: ['#6366F1', '#10B981', '#F59E0B'], // Cores personalizadas para cada série (Loja A, Loja B, Loja C)
-//   },
-// };
-
-//  const data = {
-//     series: [{
-//       name: 'Loja A',
-//       data: [30, 40, 45, 50, 49, 60, 70, 91]
-//     }, {
-//       name: 'Loja B',
-//       data: [10, 20, 30, 40, 50, 60, 70, 80]
-//     }, {
-//       name: 'Loja C',
-//       data: [20, 25, 30, 35, 40, 45, 50, 55]
-//     }],
-//     options: {
-//       chart: {
-//         type: 'line',
-//         background: 'transparent',
-//       },
-//       stroke: {
-//         width: [3, 3, 3], // Espessura da linha para cada série
-//         curve: 'smooth' // Curva suave nas linhas
-//       },
-//       xaxis: {
-//         categories: ['Jan', 'Fev', 'Mar', 'Abr', 'Mai', 'Jun', 'Jul', 'Ago']
-//       },
-//       yaxis: {
-//         title: {
-//           text: 'Vendas'
-//         }
-//       },
-//       markers: {
-//         size: 5, // Tamanho dos marcadores
-//         colors: ['#6366F1', '#10B981', '#F59E0B'], // Cores dos marcadores para cada série
-//         strokeColors: '#fff',
-//         strokeWidth: 2,
-//         hover: {
-//           sizeOffset: 4
-//         }
-//       },
-//       dataLabels: {
-//         enabled: true,
-       
-//         offsetX: 0,
-//         offsetY: 0,
-//         style: {
-//           fontSize: '12px',
-//           colors: ['#000']
-//         }
-//       },
-//       colors: ['#6366F1', '#10B981', '#F59E0B'] // Cores das linhas
-//     }
-//   };
 
 const data = {
     series: [{
-      name: 'Loja A',
+      name: 'Alimentos',
       data: [30, 40, 45, 50, 49, 60, 70, 91]
     }, {
-      name: 'Loja B',
+      name: 'Varejo',
       data: [10, 20, 30, 40, 50, 60, 70, 80]
     }, {
-      name: 'Loja C',
+      name: 'Eletronicos',
       data: [20, 25, 30, 35, 40, 45, 50, 55]
     }],
     options: {
@@ -117,7 +29,7 @@ const data = {
       },
       yaxis: {
         title: {
-          text: 'Vendas'
+          text: 'Analise em milhoes de reais'
         }
       },
       markers: {

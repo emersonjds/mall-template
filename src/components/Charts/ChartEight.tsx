@@ -99,7 +99,7 @@ const ChartEight = () => {
     <div className="bg-white p-6 rounded-lg shadow-md">
       <div>
         <h5 className="text-xl font-semibold text-black dark:text-white">
-          Projeção Estimada pra os próximos 6 anos
+          Projeção Estimada - Acurácia 91%
         </h5>
       </div>
 
