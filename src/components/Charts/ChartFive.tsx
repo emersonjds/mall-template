@@ -10,11 +10,15 @@ const data = {
       chart: {
         type: 'bar',
         background: 'transparent',
+        toolbar: {
+          show: false // Desativar o ícone de menu (hambúrguer)
+        }
       },
       plotOptions: {
         bar: {
           horizontal: true,
-          barHeight: '30%', // Ajustar a altura da barra para torná-la mais estreita
+          barHeight: '50%', // Ajustar a altura da barra para torná-la mais estreita
+          distributed: true, // Distribuir as cores entre as barras
           endingShape: 'rounded'
         }
       },
@@ -24,19 +28,28 @@ const data = {
       stroke: {
         show: true,
         width: 2,
-        // colors: ['transparent']
+        colors: ['transparent']
       },
       xaxis: {
         categories: ['0-10', '11-20', '21-30', '31-40', '41-50', '51-60', '61-70', '71-80'],
       },
-      fill: {
-        opacity: 1,
-        colors: ['#268fbe', '#FF8C42', '#FFA600', '#BC5090', '#58508D', '#003F5C', '#2F4B7C', '#8ECAE6'] // Definir cores distintas para cada faixa etária
+      yaxis: {
+        title: {
+          text: 'Faixa Etária (Anos)'
+        }
       },
-      
-    //   colors: ['#268fbe', '#FF8C42', '#FFA600', '#BC5090', '#58508D', '#003F5C', '#2F4B7C', '#8ECAE6'] // Adiciona cores personalizadas para cada faixa etária
+      fill: {
+        opacity: 1
+      },
+      tooltip: {
+        y: {
+          formatter: (val) => `${val}`
+        }
+      },
+      colors: ['#FF6361', '#FF8C42', '#FFA600', '#BC5090', '#58508D', '#003F5C', '#2F4B7C', '#8ECAE6'] // Adiciona cores personalizadas para cada faixa etária
     }
   };
+
 
 
 const ChartFive: React.FC = () => {

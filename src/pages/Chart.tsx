@@ -3,6 +3,7 @@ import Breadcrumb from '../components/Breadcrumbs/Breadcrumb';
 import ChartOne from '../components/Charts/ChartOne';
 import ChartThree from '../components/Charts/ChartThree';
 import ChartTwo from '../components/Charts/ChartTwo';
+import ChartSeven from '../components/Charts/ChartSeven';
 
 const Chart: React.FC = () => {
   return (
@@ -13,6 +14,13 @@ const Chart: React.FC = () => {
         <ChartTwo />
         {/* <ChartThree /> */}
       </div>
+
+      <br />
+      <br />
+      <div className="col-span-12 xl:col-span-12">
+        <ChartSeven />
+        </div>
+      
     </>
   );
 };

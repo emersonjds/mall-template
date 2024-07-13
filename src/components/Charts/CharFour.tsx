@@ -2,45 +2,45 @@ import React from 'react';
 import Chart from 'react-apexcharts';
 
 const data = {
-    series: [{
-      name: 'Pagamentos',
-      data: [30, 20, 10] // Quantidades fictícias para Cashback, Cartão de Crédito e PIX
-    }],
-    options: {
-      chart: {
-        type: 'bar',
-        background: 'transparent',
-      },
-      plotOptions: {
-        bar: {
-          horizontal: true,
-          barHeight: '30%', // Ajustar a altura da barra para torná-la mais estreita
-          endingShape: 'rounded'
-        }
-      },
-      dataLabels: {
-        enabled: false
-      },
-      stroke: {
-        show: true,
-        width: 2,
-        colors: ['transparent']
-      },
-      xaxis: {
-        categories: ['Cashback', 'Cartão de Crédito', 'PIX'],
-      },
-      fill: {
-        opacity: 2,
-      },
-      tooltip: {
-        y: {
-          formatter: (val) => `${val}`
-        }
-      },
-      colors: ['#6366F1'] // Adiciona cores personalizadas para cada barra
-    }
-  };
-
+  series: [{
+    name: 'Métodos de Pagamento',
+    data: [20, 35, 15, 30,57] // Quantidades fictícias para Pix, Cartão de Crédito, Dinheiro Vivo, Débito
+  }],
+  options: {
+    chart: {
+      type: 'bar',
+      background: 'transparent',
+    },
+    plotOptions: {
+      bar: {
+        horizontal: true,
+        barHeight: '50%', // Ajustar a altura da barra para torná-la mais estreita
+        distributed: true, // Distribuir as cores entre as barras
+        endingShape: 'rounded'
+      }
+    },
+    dataLabels: {
+      enabled: false
+    },
+    stroke: {
+      show: true,
+      width: 2,
+      colors: ['transparent']
+    },
+    xaxis: {
+      categories: ['Pix', 'Cartão de Crédito', 'Dinheiro Vivo', 'Débito', 'Cashback'],
+    },
+    fill: {
+      opacity: 1
+    },
+    tooltip: {
+      y: {
+        formatter: (val) => `${val}`
+      }
+    },
+    colors: ['#551bb3', '#268fbe', '#2cb8b2', '#CF5068', '#FFB946']
+  }
+};
 
 const ChartFour: React.FC = () => {
 //   const data = {

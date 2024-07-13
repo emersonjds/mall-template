@@ -8,6 +8,8 @@ import MapOne from '../../components/Maps/MapOne';
 import TableOne from '../../components/Tables/TableOne';
 import ChartFour from '../../components/Charts/CharFour';
 import ChartFive from '../../components/Charts/ChartFive';
+import ChartSix from '../../components/Charts/ChartSix';
+import ChartSeven from '../../components/Charts/ChartSeven';
 
 const ECommerce: React.FC = () => {
   return (
@@ -118,6 +120,14 @@ const ECommerce: React.FC = () => {
 
         <div className="col-span-12 xl:col-span-6">
         <ChartFive />
+        </div>
+
+        <div className="col-span-12 xl:col-span-12">
+        <ChartSix />
+        </div>
+
+        <div className="col-span-12 xl:col-span-12">
+        <ChartSeven />
         </div>
 
         {/* <div className="col-span-12 xl:col-span-8">
