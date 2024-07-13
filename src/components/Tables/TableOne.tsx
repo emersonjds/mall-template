@@ -5,42 +5,50 @@ import BrandThree from '../../images/brand/brand-03.svg';
 import BrandFour from '../../images/brand/brand-04.svg';
 import BrandFive from '../../images/brand/brand-05.svg';
 
+import BrandSix from '../../images/brand/imaginarium.png';
+import BrandSeven from '../../images/brand/Mac.png';
+import BrandEight from '../../images/brand/mania.png';
+import BrandNine from '../../images/brand/suaroviski.png';
+import BrandTen from '../../images/brand/nike.jpg';
+
+
+
 const brandData: BRAND[] = [
   {
-    logo: BrandOne,
-    name: 'Google',
+    logo: BrandSix,
+    name: 'Imaginarium',
     visitors: 3.5,
     revenues: '5,768',
     sales: 590,
     conversion: 4.8,
   },
   {
-    logo: BrandTwo,
-    name: 'Twitter',
+    logo: BrandSeven,
+    name: 'Macdonals',
     visitors: 2.2,
     revenues: '4,635',
     sales: 467,
     conversion: 4.3,
   },
   {
-    logo: BrandThree,
-    name: 'Github',
+    logo: BrandEight,
+    name: 'Mania de Churrasco',
     visitors: 2.1,
     revenues: '4,290',
     sales: 420,
     conversion: 3.7,
   },
   {
-    logo: BrandFour,
-    name: 'Vimeo',
+    logo: BrandNine,
+    name: 'Swarovski',
     visitors: 1.5,
     revenues: '3,580',
     sales: 389,
     conversion: 2.5,
   },
   {
-    logo: BrandFive,
-    name: 'Facebook',
+    logo: BrandTen,
+    name: 'Nike',
     visitors: 3.5,
     revenues: '6,768',
     sales: 390,
@@ -52,7 +60,7 @@ const TableOne = () => {
   return (
     <div className="rounded-sm border border-stroke bg-white px-5 pt-6 pb-2.5 shadow-default dark:border-strokedark dark:bg-boxdark sm:px-7.5 xl:pb-1">
       <h4 className="mb-6 text-xl font-semibold text-black dark:text-white">
-        Top Channels
+        As mais vendidas da Semana
       </h4>
 
       <div className="flex flex-col">
@@ -64,17 +72,17 @@ const TableOne = () => {
           </div>
           <div className="p-2.5 text-center xl:p-5">
             <h5 className="text-sm font-medium uppercase xsm:text-base">
-              Visitors
+              Visitantes
             </h5>
           </div>
           <div className="p-2.5 text-center xl:p-5">
             <h5 className="text-sm font-medium uppercase xsm:text-base">
-              Revenues
+              Ticket Médio
             </h5>
           </div>
           <div className="hidden p-2.5 text-center sm:block xl:p-5">
             <h5 className="text-sm font-medium uppercase xsm:text-base">
-              Sales
+              Vendas Realizadas
             </h5>
           </div>
           <div className="hidden p-2.5 text-center sm:block xl:p-5">
@@ -95,7 +103,9 @@ const TableOne = () => {
           >
             <div className="flex items-center gap-3 p-2.5 xl:p-5">
               <div className="flex-shrink-0">
-                <img src={brand.logo} alt="Brand" />
+                <img src={brand.logo} alt="Brand" objectFit='cover'
+                className='h-15 w-15 rounded-full border'
+                />
               </div>
               <p className="hidden text-black dark:text-white sm:block">
                 {brand.name}
