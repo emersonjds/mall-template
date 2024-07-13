@@ -31,7 +31,6 @@ const data = {
       },
       fill: {
         opacity: 2,
-        
       },
       tooltip: {
         y: {
@@ -96,7 +95,7 @@ const ChartFour: React.FC = () => {
     <div className='bg-white p-6 rounded-lg shadow-md'>
     <div>
           <h5 className="text-xl font-semibold text-black dark:text-white">
-            Metodos de Pagamento
+            Metodos de Pagamento 
           </h5>
         </div>
     <Chart

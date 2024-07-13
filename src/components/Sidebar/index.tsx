@@ -3,6 +3,7 @@ import { Link, NavLink, useLocation } from 'react-router-dom';
 import SidebarLinkGroup from './SidebarLinkGroup';
 // import Logo from '../../images/logo/logo.svg';
 import MallCoin from '../../images/logo/mallcoinlogo2.png'
+import VivaConnect from '../../images/logo/logo3.png';
 
 interface SidebarProps {
   sidebarOpen: boolean;
@@ -67,7 +68,7 @@ const Sidebar = ({ sidebarOpen, setSidebarOpen }: SidebarProps) => {
       <div className="flex items-center justify-between gap-2 px-6 py-5.5 lg:py-6.5">
         <NavLink to="/"
         >
-          <img src={MallCoin} alt="Logo" />
+          <img src={VivaConnect} alt="Logo" />
         </NavLink>
 
         <button
