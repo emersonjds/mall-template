@@ -150,14 +150,15 @@ const ChartOne: React.FC = () => {
         <div className="flex w-full flex-wrap gap-3 sm:gap-5">
           <div className="flex min-w-47.5">
             <span className="mt-1 mr-2 flex h-4 w-full max-w-4 items-center justify-center rounded-full border border-store-roxo1">
-              <span className="block h-2.5 w-full max-w-2.5 rounded-full bg-store-roxo1">
-              </span>
+              <span className="block h-2.5 w-full max-w-2.5 rounded-full bg-store-roxo1"></span>
             </span>
             <div className="w-full">
-              <p className="font-semibold text-store-roxo1
-               ">
-Vendas da Semana
-               </p>
+              <p
+                className="font-semibold text-store-roxo1
+               "
+              >
+                Vendas da Semana
+              </p>
               <p className="text-sm font-medium">12.04.2022 - 12.05.2022</p>
             </div>
           </div>
@@ -166,7 +167,9 @@ Vendas da Semana
               <span className="block h-2.5 w-full max-w-2.5 rounded-full bg-store-azul2"></span>
             </span>
             <div className="w-full">
-              <p className="font-semibold text-store-azul2">Faturamento Mensal</p>
+              <p className="font-semibold text-store-azul2">
+                Faturamento Mensal
+              </p>
               <p className="text-sm font-medium">12.04.2022 - 12.05.2022</p>
             </div>
           </div>

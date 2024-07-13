@@ -6,7 +6,6 @@ export const Table = ({ rows, deleteRow, editRow }) => {
   const fields=Object.keys(Object.values(dataJSON)[0]).filter((item:any)=>!(item.startsWith("delta_")));
   
   return (
-   
       <div className="max-w-full overflow-x-auto table-wrapper">
       <table className="table">
         <thead>
@@ -49,11 +48,9 @@ export const Table = ({ rows, deleteRow, editRow }) => {
                     <BsFillTrashFill
                       className="delete-btn cursor-pointer"
                       onClick={() => deleteRow(idx)} />
-                    
                     <BsFillPencilFill
                       className="edit-btn cursor-pointer"
                       onClick={() => editRow(idx)} />
-                    
                   </span>
                 </td>
               </tr>
