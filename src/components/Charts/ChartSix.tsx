@@ -62,7 +62,7 @@ const ChartSix = () => {
       <div className="bg-white p-6 rounded-lg shadow-md">
         <div>
           <h5 className="text-xl font-semibold text-black dark:text-white">
-            Vendas por Segmento - 2020 x 2021 x 2022
+            Vendas por Segmento - 2021 x 2022 x 2023
           </h5>
         </div>
         <Chart
