@@ -3,19 +3,19 @@ import Chart from 'react-apexcharts';
 const data = {
     series: [{
       name: 'Alimentação',
-      data: Array.from({ length: 12 }, () => Math.floor(Math.random() * (2000 - 100 + 1)) + 100) // Exemplo de faturamento mensal para Alimentação
+      data: Array.from({ length: 12 }, () => Math.floor(Math.random() * (2000 - 100 + 1)) + 100)
     }, {
       name: 'Moda',
-      data: Array.from({ length: 12 }, () => Math.floor(Math.random() * (2000 - 100 + 1)) + 100) // Exemplo de faturamento mensal para Alimentação
+      data: Array.from({ length: 12 }, () => Math.floor(Math.random() * (2000 - 100 + 1)) + 100)
     }, {
       name: 'Entretenimento',
-      data: Array.from({ length: 12 }, () => Math.floor(Math.random() * (2000 - 100 + 1)) + 100) // Exemplo de faturamento mensal para Alimentação
+      data: Array.from({ length: 12 }, () => Math.floor(Math.random() * (2000 - 100 + 1)) + 100)
     }, {
       name: 'Eletrônicos',
-      data: Array.from({ length: 12 }, () => Math.floor(Math.random() * (2000 - 100 + 1)) + 100) // Exemplo de faturamento mensal para Alimentação
+      data: Array.from({ length: 12 }, () => Math.floor(Math.random() * (2000 - 100 + 1)) + 100)
     }, {
       name: 'Serviços',
-      data: Array.from({ length: 12 }, () => Math.floor(Math.random() * (2000 - 100 + 1)) + 100) // Exemplo de faturamento mensal para Alimentação
+      data: Array.from({ length: 12 }, () => Math.floor(Math.random() * (2000 - 100 + 1)) + 100)
     }],
     options: {
       chart: {
