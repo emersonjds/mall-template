@@ -88,7 +88,7 @@ const ECommerce: React.FC = () => {
         </CardDataStats>
         <CardDataStats
           title="Total de Usuarios Ativos"
-          total="13.456"
+          total="23.456"
           rate="23.95%"
           levelUp
         >
