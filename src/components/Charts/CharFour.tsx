@@ -6,7 +6,7 @@ const dataChartObj = {
   series: [
     {
       name: 'Métodos de Pagamento',
-      data: [20, 35, 15, 30,57],
+      data: [57, 35, 15, 30,20],
     },
   ],
   options: {
@@ -31,7 +31,7 @@ const dataChartObj = {
       colors: ['transparent'],
     },
     xaxis: {
-      categories: ['Dinheiro', 'Cartão de Crédito', 'Cartão de Débito', 'Pix', 'Boleto'],
+      categories: ['Cashback', 'Cartão de Crédito', 'Cartão de Débito', 'Pix', 'Dinheiro'],
     },
     fill: {
       opacity: 1,
