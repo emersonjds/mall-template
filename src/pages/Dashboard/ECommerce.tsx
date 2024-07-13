@@ -87,7 +87,7 @@ const ECommerce: React.FC = () => {
           </svg>
         </CardDataStats>
         <CardDataStats
-          title="Total de Usuarios"
+          title="Total de Usuarios Ativos"
           total="13.456"
           rate="23.95%"
           levelUp

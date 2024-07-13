@@ -159,7 +159,7 @@ const ChartOne: React.FC = () => {
               >
                 Vendas da Semana
               </p>
-              <p className="text-sm font-medium">12.04.2022 - 12.05.2022</p>
+              <p className="text-sm font-medium">12.03.2024 - 12.05.2024</p>
             </div>
           </div>
           <div className="flex min-w-47.5">
@@ -170,7 +170,7 @@ const ChartOne: React.FC = () => {
               <p className="font-semibold text-store-azul2">
                 Faturamento Mensal
               </p>
-              <p className="text-sm font-medium">12.04.2022 - 12.05.2022</p>
+              <p className="text-sm font-medium">12.03.2022 - 12.05.2024</p>
             </div>
           </div>
         </div>
