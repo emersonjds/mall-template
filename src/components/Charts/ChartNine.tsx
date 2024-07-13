@@ -38,10 +38,7 @@ const data = {
       legend: {
         position: 'top'
       },
-      title: {
-        text: 'Faturamento Mensal por Segmento de Shopping',
-        align: 'center'
-      }
+      
     }
   };
 
@@ -51,7 +48,7 @@ const ChartNine = () => {
       <div className="bg-white p-6 rounded-lg shadow-md">
         <div>
           <h5 className="text-xl font-semibold text-black dark:text-white">
-            Projeção Estimada pra os próximos 6 anos
+          Faturamento Mensal por Segmentação
           </h5>
         </div>
         <Chart
