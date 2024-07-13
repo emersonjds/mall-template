@@ -11,8 +11,6 @@ import BrandEight from '../../images/brand/mania.png';
 import BrandNine from '../../images/brand/suaroviski.png';
 import BrandTen from '../../images/brand/nike.jpg';
 
-
-
 const brandData: BRAND[] = [
   {
     logo: BrandSix,
