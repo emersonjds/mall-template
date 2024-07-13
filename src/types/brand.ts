@@ -4,5 +4,6 @@ export type BRAND = {
   visitors: number;
   revenues: string;
   sales: number;
-  conversion: number;
+  invoicing?: number;
+  cashback: number;
 };

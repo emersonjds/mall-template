@@ -11,8 +11,8 @@ const options: ApexOptions = {
     fontFamily: 'Satoshi, sans-serif',
     type: 'donut',
   },
-  colors: ['#3C50E0', '#6577F3', '#8FD0EF', '#0FADCF'],
-  labels: ['Desktop', 'Tablet', 'Mobile', 'Unknown'],
+  colors: ['#551bb3', '#268fbe', '#CF5068', '#FF6766'],
+  labels: ['Casa e Banho', 'Varejo', 'Eletronicos', 'Genéricos'],
   legend: {
     show: false,
     position: 'bottom',
@@ -67,7 +67,7 @@ const ChartThree: React.FC = () => {
       <div className="mb-3 justify-between gap-4 sm:flex">
         <div>
           <h5 className="text-xl font-semibold text-black dark:text-white">
-            Visitors Analytics
+            Analise de Vendas por Produto
           </h5>
         </div>
         <div>
@@ -109,6 +109,44 @@ const ChartThree: React.FC = () => {
       </div>
 
       <div className="mb-2">
+      <div className="-mx-8 flex flex-wrap items-center justify-center gap-y-3">
+        <div className="sm:w-1/2 w-full px-8">
+          <div className="flex w-full items-center">
+            <span className="mr-2 block h-3 w-full max-w-3 rounded-full bg-primary"></span>
+            <p className="flex w-full justify-between text-sm font-medium text-black dark:text-white">
+              <span> Esporte </span>
+              <span> 65% </span>
+            </p>
+          </div>
+        </div>
+        <div className="sm:w-1/2 w-full px-8">
+          <div className="flex w-full items-center">
+            <span className="mr-2 block h-3 w-full max-w-3 rounded-full bg-store-semired"></span>
+            <p className="flex w-full justify-between text-sm font-medium text-black dark:text-white">
+              <span> Varejo </span>
+              <span> 34% </span>
+            </p>
+          </div>
+        </div>
+        <div className="sm:w-1/2 w-full px-8">
+          <div className="flex w-full items-center">
+            <span className="mr-2 block h-3 w-full max-w-3 rounded-full bg-store-bluestore"></span>
+            <p className="flex w-full justify-between text-sm font-medium text-black dark:text-white">
+              <span> Produtos Genéricos </span>
+              <span> 45% </span>
+            </p>
+          </div>
+        </div>
+        <div className="sm:w-1/2 w-full px-8">
+          <div className="flex w-full items-center">
+            <span className="mr-2 block h-3 w-full max-w-3 rounded-full bg-store-cerise"></span>
+            <p className="flex w-full justify-between text-sm font-medium text-black dark:text-white">
+              <span> Eletronicos </span>
+              <span> 12% </span>
+            </p>
+          </div>
+        </div>
+      </div>
         <div id="chartThree" className="mx-auto flex justify-center">
           <ReactApexChart
             options={options}
@@ -118,44 +156,7 @@ const ChartThree: React.FC = () => {
         </div>
       </div>
 
-      <div className="-mx-8 flex flex-wrap items-center justify-center gap-y-3">
-        <div className="sm:w-1/2 w-full px-8">
-          <div className="flex w-full items-center">
-            <span className="mr-2 block h-3 w-full max-w-3 rounded-full bg-primary"></span>
-            <p className="flex w-full justify-between text-sm font-medium text-black dark:text-white">
-              <span> Desktop </span>
-              <span> 65% </span>
-            </p>
-          </div>
-        </div>
-        <div className="sm:w-1/2 w-full px-8">
-          <div className="flex w-full items-center">
-            <span className="mr-2 block h-3 w-full max-w-3 rounded-full bg-[#6577F3]"></span>
-            <p className="flex w-full justify-between text-sm font-medium text-black dark:text-white">
-              <span> Tablet </span>
-              <span> 34% </span>
-            </p>
-          </div>
-        </div>
-        <div className="sm:w-1/2 w-full px-8">
-          <div className="flex w-full items-center">
-            <span className="mr-2 block h-3 w-full max-w-3 rounded-full bg-[#8FD0EF]"></span>
-            <p className="flex w-full justify-between text-sm font-medium text-black dark:text-white">
-              <span> Mobile </span>
-              <span> 45% </span>
-            </p>
-          </div>
-        </div>
-        <div className="sm:w-1/2 w-full px-8">
-          <div className="flex w-full items-center">
-            <span className="mr-2 block h-3 w-full max-w-3 rounded-full bg-[#0FADCF]"></span>
-            <p className="flex w-full justify-between text-sm font-medium text-black dark:text-white">
-              <span> Unknown </span>
-              <span> 12% </span>
-            </p>
-          </div>
-        </div>
-      </div>
+      
     </div>
   );
 };
