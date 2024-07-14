@@ -16,7 +16,7 @@ Instale my-project com bun
 
 ```bash
   bun install 
-  cd my-project
+  cd mall-template
   bun run dev
 ```
     
