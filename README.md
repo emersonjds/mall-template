@@ -3,12 +3,9 @@
 
 This project aims to improve the user experience when using cashback alongside a blockchain layer for a future currency.
 
-
 ## Stack utilizada
 
 **Front-end:** React, Vite, TailwindCSS
-
-
 
 ## Instalação
 
